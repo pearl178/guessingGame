@@ -17,7 +17,7 @@ while guess_time<guess_limit and not end_game:
   if guess_number > number:
     print("Too high.")
   elif guess_number < number:
-    print("Yoo low.")
+    print("Too low.")
   else:
     print(f"You got it! The answer was {guess_number}")
     end_game = True
