@@ -22,3 +22,5 @@ while guess_time<guess_limit and not end_game:
     print(f"You got it! The answer was {guess_number}")
     end_game = True
   guess_time += 1
+  if guess_time == guess_limit:
+    print("You ran out of guesses. You lose.")
